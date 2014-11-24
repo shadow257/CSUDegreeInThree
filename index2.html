@@ -1,0 +1,974 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content=""/>
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=960" />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="" />
+    <meta name="author" content="" />
+    <link rel="search" type="application/opensearchdescription+xml" title="Website" href="opensearch.xml" />
+    <title></title>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/movement.css" rel="stylesheet" type="text/css" />
+    <link href="css/colorbox.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/jquery.tools.min.js"></script>
+    <script src="js/colorbox.js" type="text/javascript"></script>
+    <script src="js/scrollingpara.js" type="text/javascript"></script>
+    <script src="js/ticker.js" type="text/javascript"></script>
+    <script src="js/tweetable.js" type="text/javascript"></script>
+    <script src="js/jflickrfeed.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/jquery.jparallax.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            $("#associates").scrollable().navigator();
+            $("#successes").scrollable().navigator();
+        });
+    </script>
+    <script src="js/jquery.delay.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/landscape-header.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("ul#tweet").liScroll({travelocity: 0.05});
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            //Examples of how to assign the ColorBox event to elements
+            $("a[rel='example1']").colorbox();
+            $("a[rel='example2']").colorbox({transition:"fade"});
+            $("a[rel='example3']").colorbox({transition:"none", width:"75%", height:"75%"});
+            $("a[rel='example4']").colorbox({slideshow:true});
+            $(".example5").colorbox();
+            $(".example6").colorbox({iframe:true, innerWidth:840, innerHeight:1260});
+            $(".example10").colorbox({iframe:true, innerWidth:840, innerHeight:600});
+            $(".example7").colorbox({width:"80%", height:"80%", iframe:true});
+            $(".example8").colorbox({width:"50%", inline:true, href:"#inline_example1"});
+            $(".example9").colorbox({
+                onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+                onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+                onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+                onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+                onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+            });
+
+            //Example of preserving a JavaScript event for inline calls.
+            $("#click").click(function(){
+                $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+                return false;
+            });
+        });
+    </script>
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="css/ie7.css">
+    <![endif]-->
+    <style type="text/css">
+        #awwwards{
+            position:absolute;
+            top:110px;
+            right:0px;
+            z-index:9999;
+        }
+        #awwwards a{
+            width:69px;
+            height:105px;
+            text-indent:-8000px;
+            display:block;
+            background:url(images/award_day_white.png) no-repeat;
+        }
+    </style>
+</head>
+<body>
+<!--[if lt IE 7]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
+<header class="header">
+    <nav>
+        <ul class="nav">
+            <li><a href="#contact" class="cntct">Contact</a></li>
+            <li><a href="#doing" class="dng">Latest</a></li>
+            <li><a href="#did" class="didw">Successes</a></li>
+            <li><a href="#about" class="abt">People</a></li>
+            <li><a href="#wedo" class="wed">About</a></li>
+            <li><a href="#home">Home</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+
+        <div class="logo"></div>
+
+        <div id="port">
+            <img class="parallax-layer" src="images/layer1.png" alt="" style="width:964px; height:480px;"/>
+            <img class="parallax-layer" src="images/layer2.png" alt="" style="width:900px; height:510px;"/>
+            <img class="parallax-layer" src="images/layer3.png" alt="" style="width:878px; height:400px;"/>
+            <img class="parallax-layer" src="images/layer4.png" alt="" style="width:858px; height:380px;"/>
+
+        </div>
+
+        <div class="main-desc">
+            <header>
+
+                <h4><b>cultural solutions uk:</b> intelligence for the creative &amp; cultural sectors</h4>
+                <h1>an independent arts &amp;<br/>cultural consultancy</h1>
+                <h2 class="marg-60"><span class="hgt2">We offer a range of <a href="#wedo" class="smooth">research, planning and events management</a> services to <br />
+              arts, 3rd sector, cultural & economic development organisations, including local<br />
+        authorities, arts and cultural organisations and other public &amp; private agencies.</span></h2>
+            </header>
+            <article>
+                <a href="#wedo"  class="smooth">
+                    <div class="onefourth">
+                        <h3>what makes us special.</h3>
+                        <p>It's all about our <br />
+                            experience and intelligent<br />
+                            &amp; creative approach...</p></div>
+                </a>
+
+                <a href="#about"  class="smooth">
+                    <div class="onefourth">
+                        <h3>Meet the creatives</h3>
+                        <p>Find out more <br />
+                            about us and <br />
+                            our associates... </p>
+                    </div>
+                </a>
+
+                <a href="#did"  class="smooth">
+                    <div class="onefourth">
+                        <h3>what we have done</h3>
+                        <p>Devising, managing &amp; delivering<br />
+                            numerous successful <br />
+                            festivals &amp; programmes...</p>
+                    </div>
+                </a>
+
+
+                <div class="onefourth nobg">
+                    <!-- Begin MailChimp Signup Form -->
+                    <script type="text/javascript">
+                        // delete this script tag and use a "div.mce_inline_error{ XXX !important}" selector
+                        // or fill this in and it will be inlined when errors are generated
+                        var mc_custom_error_style = '';
+                    </script>
+                    <div id="mc_embed_signup">
+                        <form action="http://culturalsolutions.us2.list-manage1.com/subscribe/post?u=a50a1fef7fc10ccf6cf08b6d9&amp;id=ab43a45770" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <fieldset>
+
+                                <div class="mc-field-group">
+                                    <label for="mce-EMAIL">sign up to Our mailing list</label><input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="enter your email address"/>
+                                </div>
+                                <div id="mce-responses">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <div><input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="btn" /></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <script src="js/chimp.js" type="text/javascript"></script>
+                    <!--End mc_embed_signup-->
+
+                </div>
+            </article>
+
+
+        </div>  <!--END OF main-desc !-->
+    </div><!--END OF CONTENT !-->
+</section><!--END OF HOME !-->
+<div class="clear"></div>
+
+<section class="wedo" id="wedo">
+    <div class="content">
+        <div class="sectiontitle">
+            <p>what <br />
+                we do
+            </p>
+        </div>
+        <h2>Whether through <span class="hgt2">research, strategic thinking and planning, <br />
+      evaluation or direct delivery,</span> <span class="hgt3">our work has helped our clients</span> <br />to  make <span class="hgt2">real and valuable changes.</span></h2>
+        <div class="clear"></div>
+        <article>
+            <h3>We work within a framework of <span class="hgt3">4 main themes</span></h3>
+
+            <ul class="themes">
+                <li>Communities</li>
+                <li>Business</li>
+                <li>Learning</li>
+                <li>Living Places</li>
+            </ul>
+        </article>
+
+
+        <aside>
+            <h3>We specialise in <span class="hgt3">10 sectors</span></h3>
+
+            <ul class="sectors">
+                <li>Event Management</li>
+                <li>Cultural Festivals</li>
+                <li>Local Authority Strategic Planning</li>
+                <li>Organisational Reviews</li>
+                <li>Cultural and Economic Impact Studies</li>
+                <li>Policy, Planning and Research Studies</li>
+                <li>Funding Advice and Development</li>
+                <li>European Funding Advice and Development</li>
+                <li>Cultural Tourism</li>
+                <li>Children, Young People and the arts</li>
+            </ul>
+        </aside>
+        <div class="clear"></div>
+        <div class="sectiontitle"><p>Our BIG Real<br/>Gypsy Lives</p></div>
+        <h2>From June 2012 to February 2013 Lincolnshire Traveller Initiative and cultural solutions UK have been working with a group of young Gypsies and Travellers documenting the lives of some of Lincolnshire’s Gypsy and Traveller families. PLEASE EMAIL FOR 27.02.13 LAUNCH INFORMATION</h2>
+
+
+
+        <div class="clear"></div>
+
+        <div class="emptyleft"></div>
+        <div class="onefourth">
+            <ul class="sectors">
+                <li>BESPOKE EDUCATION PACK</li>
+
+                <li>UNIQUE 20 MINUTE FILM</li>
+
+                <li>TOURING EXHIBITION</li>
+
+            </ul>
+        </div>
+        <div class="onefourth">
+            <ul class="sectors">
+                <li>LIVING HISTORY TESTIMONIALS</li>
+
+                <li>GYPSY & TRAVELLER POETRY</li>
+
+                <li>AUDIO CD</li>
+
+            </ul>
+        </div>
+        <div class="onefourth">
+            <ul class="sectors">
+                <li>GYPSY PHOTOGRAPHY</li>
+
+                <li>PUBLICATIONS</li>
+
+                <li>ARTEFACTS</li>
+
+            </ul>
+        </div>
+
+    </div><!--end of content !-->
+</section><!--end of what we do !-->
+
+
+<section class="about" id="about">
+    <div class="content">
+
+        <header>
+            <div class="sectiontitle">
+                <p>david <br />
+                    lambert</p>
+            </div>
+
+            <div class="scrollable" id="davtxt">
+                <div class="items">
+                    <div><p>...innovator</p></div>
+                    <div><p>...facilitator</p></div>
+                    <div><p>...thinker</p></div>
+                    <div><p>...leader</p></div>
+                    <div><p>...doer</p></div>
+                    <div><p>...creative</p></div>
+                    <div><p>...listener</p></div>
+                    <div><p>...passionate</p></div>
+                    <div><p>...objective</p></div>
+                    <div><p>...advisor</p></div>
+                    <div><p>...trusting</p></div>
+                    <div><p>...fair</p></div>
+                    <div><p>...confident speaker</p></div>
+                    <div><p>...dedicated</p></div>
+                    <div><p>...focused</p></div>
+                    <div><p>...sense of humour</p></div>
+                    <div><p>...vision</p></div>
+                    <div><p>...writer</p></div>
+                    <div><p>...confident</p></div>
+                    <div><p>...honest</p></div>
+                    <div><p>...adaptable</p></div>
+                    <div><p>...patient</p></div>
+                    <div><p>...reliable</p></div>
+                </div><!--END OF ITEMS !-->
+            </div><!--END OF SCROLLABLE !-->
+
+            <div class="clear"></div>
+
+            <h2>Created by David Lambert <span class="hgt2">in response to a demand by the region's artistic and cultural <br />
+      sectors for bespoke advice and support,</span> <span class="hgt3"><em>cultural solutions uk</em> is becoming the consultancy <br />
+      of choice</span> for agencies and organisations seeking an <span class="hgt2">objective, bespoke service.</span></h2>
+        </header>
+
+
+        <div class="sectiontitle">
+            <p>our<br/>associates</p>
+        </div>
+        <div class="clear"></div>
+        <article id="asscircs">
+
+            <a class="prev browse left"></a>
+
+            <div class="scrollable" id="associates">
+                <div class="items">
+                    <div class="item">
+                        <div class="leftass">
+                            <h3>Sara Bullimore</h3>
+                            <h5>Sara was the <b>Artistic Director of the Lincoln Book Festival</b> for seven years and her main interests and skills lie within the<b> dance, theatre</b> and
+                                <b>literature</b> sectors.</h5>
+                            <p>Since 2009 Sara has been working as a freelance consultant, undertaking many different projects in fundraising, event management, teaching and business management across all areas of the arts, including literature festivals and the Cultural Olympiad programme for Lincolnshire.</p>
+                        </div><!--END OF LEFT ASSOCIATE !-->
+                        <div class="rightass">
+                            <h3>Heather Maitland</h3>
+                            <h5>Heather specialises in <b>business planning, marketing</b> and <b>audience development </b> in the cultural sector.</h5>
+                            <p>She has delivered training programmes, keynotes and seminars throughout the UK and worldwide, most recently for the British Council in Colombia and Syria. She is an Associate Fellow of the Centre for Cultural Policy Studies at the University of Warwick.</p>
+                        </div><!--END OF RIGHT ASSOCIATE !-->
+                    </div><!--END OF ITEM !-->
+                    <div class="item">
+                        <div class="leftass">
+                            <h3>Sue North</h3>
+                            <h5>Sue North is a former associate editor of an <b>award-winning regional daily paper</b>, so has a <b> thorough understanding of what the media wants</b> and needs and knows exactly how to deliver it to them.</h5>
+                            <p>Her skills include writing, editing, design and proofreading and she also delivers media training. She particularly enjoys working in the arts and cultural sectors, where she has achieved extensive national and local coverage in print, broadcast and online for the festivals and events she works with.</p>
+                        </div><!--END OF LEFT ASSOCIATE !-->
+                        <div class="rightass">
+                            <h3>Leanne Taylor</h3>
+                            <h5>Leanne has worked in the creative and cultural industries for over <b>12 years planning events </b>and <b>festivals</b> and <b>developing participatory programmes</b> with a range of communities.</h5>
+                            <p>She has a wide experience of Local Authority cultural development, including developing new creative programmes to address social inclusion, cultural tourism and crime and disorder.</p>
+                        </div><!--END OF RIGHT ASSOCIATE !-->
+                    </div><!--END OF ITEM !-->
+                    <div class="item">
+                        <div class="leftass">
+                            <h3>Tim Harris</h3>
+                            <h5><b>Head of Arts at Nottinghamshire<br /> County Council</b>
+                                for over a decade.</h5>
+                            <p>Tim works with independent arts organisations, local authorities, artist networks and the third sector.
+                                He has experience in arts and health, evaluation, project management, strategic planning and organisational development for the independent arts sector, commissioning and festivals.</p>
+                        </div><!--END OF LEFT ASSOCIATE !-->
+                        <div class="rightass">
+                            <h3>Emma Tatlow</h3>
+                            <h5>Working in <b>destination management</b> and
+                                <b>marketing is Emma's passion...</b></h5>
+                            <p>Starting her working life with Holidaybreak, Emma then moved into marketing and has since spent a number of years working in UK destinations creating and delivering marketing strategies across public/private sector partnerships.</p><p> Emma is an advocate for the visitor economy concept bringing together all aspects of a place - culture and festivals, retail, nightlife, food and drink, accommodation, attractions to tell a compelling story to people who may live, visit, work or invest in a destination...</p>
+                        </div><!--END OF RIGHT ASSOCIATE !-->
+                    </div><!--END OF ITEM !-->
+                    <div class="item">
+                        <div class="leftass">
+                            <h3>Nicki Jarvis</h3>
+                            <h5>Nicki combines a practical arts background with <b>15 years of arts</b> and <b>cultural development</b> as a <b>museums</b> and <b>gallery curator</b> and <b>arts development officer</b>.</h5>
+                            <p>She has a particular flair for writing funding applications alongside that of project development. Nicki particularly enjoys working with voluntary organisations and individuals, offering balanced support to assist projects from 'a twinkle in the eye' stage, to successful fruition.</p>
+                        </div><!--END OF LEFT ASSOCIATE !-->
+                        <div class="rightass">
+                            <h3>Adroit Economics</h3>
+                            <h5>Jamie Fotheringham from Adroit offers <b>specialist consultancy advice</b> in economic development and regeneration, with particular <b>expertise in the creative industries</b> and <b>local/regional development</b>.</h5>
+                            <p>Clients include local and central government, regeneration partnerships and other public sector bodies, as well as the private sector.</p>
+                        </div><!--END OF RIGHT ASSOCIATE !-->
+                    </div><!--END OF ITEM !-->
+                    <div class="item">
+                        <div class="leftass">
+                            <h3>Ran-Design</h3>
+                            <h5>A graphic <b>design studio</b> based in the historic City of Lincoln, offering a <b>bespoke graphic design service</b>.</h5>
+                            <p>Dave and the team specialize in all types of printed media  and provide a range of work for <em>cultural solutions uk</em>.</p>
+                        </div><!--END OF LEFT ASSOCIATE !-->
+                        <div class="rightass">
+                            <h3></h3>
+                            <h5></h5>
+                            <p></p>
+                        </div><!--END OF RIGHT ASSOCIATE !-->
+                    </div><!--END OF ITEM !-->
+
+                </div><!--END OF items !-->
+            </div><!--END OF ASSOCIATES !-->
+            <a class="next browse right"></a>
+            <div class="navi"></div><!--END OF NAVIGATION BUTTONS !-->
+        </article>
+    </div><!--END OF CONTENT !-->
+</section>
+<!--END OF ABOUT !-->
+
+<section class="did" id="did">
+<div class="content">
+
+<div class="sectiontitle">
+    <p>what <br />
+        people say
+        <br />
+    </p>
+</div>
+
+<article class="testi-cont">
+    <div class="scrollable" id="testimonials">
+
+        <div class="items">
+            <div class="test-item">
+                <q></q><p><span>We have taken part in the East Lindsey Wolds Words Festival for many years. Last year, cultural solutions uk took over the organisation, marketing and promotion of the festival, and immediately raised the bar, with, for instance, a programme which had the look and feel of a trendy, happening event. In short, they brought a touch of va-va-voom to the festival.<br /><em>&mdash;Alan Mumby, Chairman, Far Welter'd (East Lindsey Dialect Society)</em></span></p>
+            </div><div class="test-item">
+            <q></q><p><span>We have enjoyed working with cultural solutions uk and think they make a real difference to the community. They make things happen by giving young individuals a chance to achieve new skills, qualifications and an enjoyable experience.<br /><em>&mdash;Adele Dewell,  Director,  Streetz Ahead Theatre Arts Lincoln</em></span></p>
+        </div><div class="test-item">
+            <q></q><p><span>On a personal note - My 5 year old son attended one of the "Wolds Words" events delivered by cultural solutions uk (the Gruffallo) and thought it was "brilliant". It was well organised and professional with interaction at the right level for children (not patronising!) he thoroughly enjoyed the event and would attend future activities organised by cultural solutions uk.<br /><em>&mdash;Nicola Radford, Principal Development Officer, Economy and Culture,<br />  Lincolnshire County Council, (Coastal Communities Alliance)</em></span></p>
+        </div><div class="test-item">
+            <q></q><p><span>We have been working with cultural solutions uk since 2008 when we retained them as our cultural advisers. Since then they have successfully secured funding for the past three annual beam! festivals before going on to devise and deliver the festivals. They also researched and implemented a sustainable annual Artists Market programme, now in its fifth year.
+What we like about them is they understand the needs of our 800 members' and how the arts can assist in realising their predominately economic aspirations.<br /><em>&mdash;Michael Armstrong, Events and Promotions Manager Lincoln Business Improvement Group</em></span></p>
+        </div><div class="test-item">
+            <q></q><p><span>The team are a highly professional and enthusiastic team to work with. Feedback from cultural groups who they worked with on the Coastal Cultural Strategy, was that cultural solutions uk were approachable, professional and connected with what was "needed" for culture to develop and be sustainable on the coast.<br /><em>&mdash;Nicola Radford, Principal Development Officer, Economy and Culture, Lincolnshire County Council, (Coastal Communities Alliance)</em></span></p>
+        </div><div class="test-item">
+            <q></q><p><span>A company full of energy, knowledge, commitment and vision. They have a unique overview of the cultural landscape in Lincolnshire and a fantastic capacity for strategic thinking and dynamic delivery.<br /><em>&mdash;Simon Hollingworth, Director, Lincoln Drill Hall</em></span></p>
+        </div><div class="test-item">
+            <q></q><p><span>We'll wait before we go travelling until Darren finishes the learning in June. He'd never had done any of this without you.<br /><em>&mdash;Dawn (Darren's mother, Gypsy family)</em></span></p>
+        </div><div class="test-item">
+            <q></q><p><span>The arts are capable of unlocking the potential of so-called marginalized young people who, for various reasons, have lost out, cultural solutions uk enabled this to happen!<br /><em>&mdash;Paul Boucher, Gainsborough Traveller Initiative</em></span></p>
+        </div>
+        </div><!--end of items !-->  <a class="testiclick"></a>
+    </div><!--end of testimonials scrollable !-->
+
+
+</article><!--end of separating div !-->
+
+
+<div class="clear"></div>
+
+<article>
+
+    <div class="sectiontitle trigger">
+        <p>Our<br/>successes<br/>
+            <a href="javascript:void(0)" class="toggle" title="click me to see more">+</a>
+        </p>
+    </div>
+
+    <div id="titlebar">  <!--THIS TEXT APPEARS FIRST !-->
+        <h3>take a look at what we have done <br />
+            &amp; how we have done it</h3>
+        <h1><span class="hgt3">From devising a bespoke programme of learning as part of the <b>nationally-accredited Arts Award</b> for young Gypsies and Travellers; a <b>multimedia programme for children</b> in public care; <b>a &pound;900,000 EU/local authority funded growth programme</b> for the cultural &amp; creative sectors and the <b>devising, managing and delivery of a major cultural festival</b></span></h1>
+    </div><!--END OF TITLEBAR !-->
+
+    <div id="sliders">
+
+        <div class="village">
+            <div class="village-padding">
+                <h3>Case Studies</h3>
+                <ol>
+                    <li>Gainsborough Traveller Initiative (GTI)<a href="cs1.html" class="example10" title="Gainsborough Traveller Initiative (GTI)">More</a></li>
+                    <li>our world? Multi-Media Project 2008<a href="cs2.html" class="example10" title="our world? Multi- Media Project 2008 ">More</a></li>
+                    <li>Lincolnshire Creative Solutions Initiative<a href="cs3.html" class="example10" title="Lincolnshire Creative Solutions Initiative (LCSI) ">More</a></li>
+                    <li>Lincoln Book Festival 2010<a href="cs4.html" class="example10" title="Lincoln Book Festival 2010 ">More</a></li>
+                </ol>
+            </div><!--END OF village-padding !-->
+        </div>
+        <!--END OF village !-->
+
+        <div class="cloudbar">
+            <div class="cloud-padding">
+                <h3>What we have done</h3>
+
+                <a class="prev browse left"></a>
+                <div class="scrollable" id="successes">
+
+                    <div class="items">
+
+                        <div class="suc-item">
+                            <ul class="suc-list">
+                                <li>
+                                    <p>CURATED AND MANAGED WOLDS WORDS FESTIVAL<br/>OF READING, WRITING AND PERFORMANCE 2010</p>
+				<span>East Lindsey District Council / Arts Council England<br/>
+				visit<a href="http://issuu.com/culturalsolutionsuk/docs/wolds__words__2010_brochure_2010" class="issu" target="_blank">
+                        www. →</a></span>
+                                </li>
+                                <li>
+                                    <p>LINCOLN BUSINESS IMPROVEMENT GROUP</p>
+				<span>Cultural Advisors 2007 – PRESENT DAY<br/>
+view<a href="http://www.lincolnbig.co.uk/lincoln/events-and-promotions" class="issu" target="_blank">
+                        www. →</a></span>
+                                </li>
+                                <li class="last">
+                                    <p>IGNITING AMBITION – CULTURAL OLYMPIAD<br/>
+                                        LINCOLNSHIRE SHOWCASE 2011</p>
+				<span>Management of the 18 month
+(May 2010 – November 2011)
+Igniting Ambition / Lincolnshire
+County Council / Legacy Trust / ERDF<br/>
+view<a href="http://issuu.com/culturalsolutionsuk/docs/igniting_ambition_2011_festival_brochure_content" class="issu" target="_blank">
+                        brochure →</a></span>
+                                </li>
+                            </ul>
+                        </div><!--END OF suc-item !-->
+                        <div class="suc-item">
+                            <ul class="suc-list">
+                                <li>
+                                    <p>CURATED AND MANAGED BEAM!<br/>
+                                        2009 & 2010</p>
+				<span>Lincoln Children’s Festival<br/>
+				view<a href="http://issuu.com/culturalsolutionsuk/docs/___beam_2010_-_brochure" class="issu" target="_blank">
+                        brochure →</a></span>
+                                </li>
+                                <li>
+                                    <p>DEVISED FUNDING STRATEGY FOR<br/>
+                                        HOMESTART EAST LINDSEY 2009 / 2010</p>
+				<span>Secured £500,000 BIG Lottery funding<br/>
+<a href="" class="issu" target="_blank">
+</a></span>
+                                </li>
+                                <li class="last">
+                                    <p>CURATED AND MANAGED LINCOLN BOOK FESTIVAL 2010</p>
+				<span>Lincolnshire Tourism / Arts Council /<br/>
+Lincolnshire County Council<br/>
+<a href="" class="issu" target="_blank">
+</a></span>
+                                </li>
+                            </ul>
+                        </div><!--END OF suc-item !-->
+                        <div class="suc-item">
+                            <ul class="suc-list">
+                                <li>
+                                    <p>CURATED AND MANAGED LINCOLNSHIRE SCHOOLS ARTS<br/> CELEBRATION 5/6 JULY 2008 (LINCOLN CASTLE)</p>
+				<span>Lincolnshire County Council / Arts Council England / ERDF<br/>
+				<a href="" class="issu" target="_blank">
+                </a></span>
+                                </li>
+                                <li>
+                                    <p>CENTRE FOR BRITISH TEACHING (CFBT)<br/>
+                                        OCT 2007 – JUL 2008</p>
+				<span>Cultural Advisors - Lincoln Business<br/>
+Improvement Group - 2007<br/>
+<a href="" class="issu" target="_blank">
+</a></span>
+                                </li>
+                                <li class="last">
+                                    <p>CURATED AND MANAGED SHOUT!</p>
+				<span>Celebration of Achievement Awards for CiPC and Carers Lincolnshire County Council Children in Public Care Service 2008 / 2009<br/>
+<a href="" class="issu" target="_blank">
+</a></span>
+                                </li>
+                            </ul>
+                        </div><!--END OF suc-item !-->
+                        <div class="suc-item">
+                            <ul class="suc-list">
+                                <li>
+                                    <p>OUR WORLD?<br/>
+                                        2008 – 2009</p>
+				<span>Lincolnshire County Council multimedia project for Children in Public Care<br/>
+				view<a href="http://issuu.com/culturalsolutionsuk/docs/our_world_flyer_to_print" class="issu" target="_blank">
+                        publicity →</a></span>
+                                </li>
+                                <li>
+                                    <p>RESEARCH AND ESTABLISHMENT OF<br/>
+                                        LINCOLN ARTISTS MARKET PROGRAMME 2008</p>
+				<span>Lincoln Business Improvement Group<br/>
+<a href="" class="issu" target="_blank">
+</a></span>
+                                </li>
+                                <li class="last">
+                                    <p>COMMUNITY ENGAGEMENT AND MARKETING PROGRAMME <br/>
+                                        2008 – 2009</p>
+				<span>Lincoln Performing Arts Centre (LPAC)<br/>
+visit<a href="http://www.lpac.co.uk/" class="issu" target="_blank">
+                        www. →</a></span>
+                                </li>
+                            </ul>
+                        </div><!--END OF suc-item !-->
+                        <div class="suc-item">
+                            <ul class="suc-list">
+                                <li>
+                                    <p>LINCOLNSHIRE CREATIVE SOLUTIONS INITIATIVE (LCSI)<br/>
+                                        2005 – 2008</p>
+				<span>Creative and cultural industries growth programme Lincolnshire County Council / Arts Council England / ERDF<br/>
+				view<a href="http://issuu.com/culturalsolutionsuk/docs/lcsiimpactstudy" class="issu" target="_blank">
+                        report →</a></span>
+                                </li>
+                                <li>
+                                    <p>LINCOLNSHIRE COAST CULTURAL REGENERATION PLAN<br/>
+                                        2010 – 2015</p>
+				<span>Lincolnshire County Council / Arts Council England 2008/09<br/>
+<a href="" class="issu" target="_blank">
+</a></span>
+                                </li>
+                                <li class="last">
+                                    <p>SOUNDLINCS 10 YEAR IMPACT STUDY <br/>
+                                        2009</p>
+				<span><br/>
+view<a href="http://issuu.com/culturalsolutionsuk/docs/soundlincs_impact_study" class="issu" target="_blank">
+                        study →</a></span>
+                                </li>
+                            </ul>
+                        </div><!--END OF suc-item !-->
+
+
+                    </div><!--END OF items !-->
+                </div><!--END OF succeses !-->
+
+                <a class="next browse right"></a>
+
+
+                <div class="navi"></div><!--END OF NAVIGATION BUTTONS !-->
+            </div><!--END OF cloud-padding !-->
+        </div>
+        <!--END OF cloudbar !-->
+
+    </div>
+    <!--END OF sliders !-->
+
+
+</article>
+</div><!--END OF CONTENT !-->
+</section><!--END OF DID !-->
+
+
+<section class="doing" id="doing">
+    <div class="content">
+
+        <header>
+            <div class="sectiontitle">
+                <p>latest news<br />&amp; projects</p></div>
+
+        </header>
+
+        <div class="clear"></div>
+
+        <article>
+            <a href="http://www.twitter.com/culturalsolUK" class="twitterlink" target="_blank">follow us</a>
+            <h3>latest <span class="hgt3">tweets</span></h3>
+            <div class="twitter">
+
+                <ul id="tweet">
+                    <li id="tweets">
+
+                    </li>
+                </ul>
+
+
+            </div>
+
+            <div class="latest">
+
+                <h3>Latest <span class="hgt3">Projects</span></h3>
+
+
+                <div class="latest-text">
+
+                    <div class="lat-item">
+
+                        <ul class="lat-list">
+
+                            <li>
+                                <p>The Alchemy Project <br /> Communities Free from Hate</p>
+				<span>
+				<em>view</em>
+                <a href="http://www.alchemyproject.eu/" class="issu" target="_blank">
+                    website →</a></span>
+                            </li>
+
+
+                            <li>
+                                <p>Golden Fables 2012</p>
+				<span>A Cultural Olympiad 2012 project <br />
+				<em>view</em>
+                <a href="http://www.goldenfables2012.co.uk/" class="issu" target="_blank">
+                    website →</a></span>
+                            </li>
+
+
+                            <li>
+                                <p>'OUR BIG REAL GYPSY LIVES'
+                                    BIGGER. TRUER. HAPPIER</p>
+				<span>From June 2012 to February 2013 we have been working with a group of young Gypsies and Travellers documenting the lives of some of Lincolnshire’s Gypsy and Traveller families.
+				<em>view</em>
+                <a href="http://issuu.com/culturalsolutionsuk/docs/obrgl_-_invite_27.02.2013" class="issu" target="_blank">
+                    invitation→</a></span>
+                            </li>
+
+
+                            <li>
+                                <p>Igniting Ambition <br /> Cultural Olympiad Lincolnshire Showcase 2011</p>
+				<span>
+				<em>view</em>
+                <a href="http://issuu.com/culturalsolutionsuk/docs/igniting_ambition_2011_festival_brochure_content" class="issu" target="_blank">
+                    brochure →</a></span>
+                            </li>
+
+
+                            <li>
+                                <p>Lincoln beam! Festival 2012</p>
+				<span>Children & Young People's Festival
+				<em>view</em>
+                <a href="http://www.lincolnbeam.co.uk/" class="issu" target="_blank">
+                    website →</a></span>
+                            </li>
+
+
+                            <li>
+                                <p>Lincolnshire<br/>Poet Laureate  2011 - 2012</p>
+				<span>Joel Stickley.Please contact us if you would like Joel to attend your event.
+				<em>view</em>
+                <a href="http://bit.ly/rYmXMe" class="issu" target="_blank">
+                    website →</a></span>
+                            </li>
+
+
+                            <li>
+                                <p>The Alchemy Project WINTER 2012 PROGRAMME</p>
+				<span>A full creative programme for the whole community.
+				<em>view</em>
+                <a href="http://issuu.com/culturalsolutionsuk/docs/alchemy_winter_web" class="issu" target="_blank">
+                    brochure →</a></span>
+                            </li>
+
+
+
+
+                        </ul>
+
+                    </div><!--END OF lat-item !-->
+
+                </div><!--END OF latest-text !-->
+
+
+            </div><!--END OF latest !-->
+
+            <div class="flicker">
+
+                <h3>latest  <span class="hgt3">flickr</span></h3>
+
+                <ul id="basicuse" class="thumbs"></ul>
+
+            </div><!--END OF flicker !-->
+
+        </article>
+
+    </div><!--END OF CONTENT !-->
+</section><!--END OF DOING !-->
+
+<section class="contact" id="contact">
+
+    <div class="content">
+
+        <header>
+            <div class="sectiontitle">
+                <p>get <br />in touch</p>
+            </div>
+            <div class="clear"></div>
+        </header>
+
+        <div class="clear"></div>
+        <article>
+
+            <div class="cntct-det">
+
+                <div class="getintouch">
+                    <h3>Connect</h3>
+
+                    <p class="address">Lincoln, UK</p>
+
+                    <a href="mailto:david@culturalsolutions.co.uk" class="email">
+                        david@culturalsolutions.co.uk</a>
+
+                    <p class="telephone">+44(0)78809 08539</p>
+
+                    <a href="downloads/David%20Lambert.vcf" class="vcard">Get vCard</a>              </div>
+
+                <div class="socials">
+                    <h3>social</h3>
+
+                    <a href="http://twitter.com/culturalsolUK" class="twit" target="_blank">twitter</a>
+
+                    <a href="http://www.flickr.com/photos/62587165@N08/" target="_blank" class="lnkd">flickr</a>
+
+                    <a href="http://uk.linkedin.com/pub/david-lambert/10/88b/79" target="_blank" class="flkr">linked in</a>
+
+                    <a href="http://issuu.com/search?q=culturalsolutionsuk" target="_blank" class="iss">issuu</a>                </div>
+            </div>
+
+            <div class="clear"></div>
+            <div class="project">
+                <h3>Project Bid Request <span class="hgt3">Plan a project</span></h3>
+                <h2>If you <span class="hgt2">have an idea</span> or simply a notion of what you are looking for <br />
+                    <span class="hgt2">please share it</span> with us by completing our  <a href="form.html" class="example6" title="Project Bid Request Form">online bid request form</a> today...</h2>
+
+                <h4>This may well be the first step in finding  a <em>cultural solution</em><br />
+                    to your idea, challenging situation or current thinking.</h4></div>
+        </article>
+
+        <div class="sectiontitle">
+            <p>things<br />we like</p>
+        </div>
+
+        <div class="clear"></div>
+
+        <article>
+
+            <div class="likes">
+
+                <div class="col">
+                    <h3>Great reads</h3>
+                    <ul>
+                        <li><a href="http://www.jamesleeburke.com/" target="_blank">
+                            James Lee Burke</a><br />
+                        </li>
+                        <li><a href="http://tim-parks.com/non-fiction/a-season-with-verona/" target="_blank">
+                            A Season with Verona</a><br />
+                            — Tim Parks </li>
+                        <li><a href="http://www.rosamundlupton.com/books/sister/" target="_blank">
+                            Sister</a><br />
+                            — Rosamund Lupton </li>
+                        <li><a href="http://www.sebastianfaulks.com/index.php?page_id=35" target="_blank">
+                            Bird Song</a><br />
+                            — Sebastian Faulkes </li>
+
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3><br/></h3>
+                    <ul>
+                        <li><a href="http://www.michaelrosen.co.uk/books.html" target="_blank">
+                            We're Going on <br /> a Bear Hunt</a><br />
+                            — Michael Rosen & <br /> Helen Oxenbury </li>
+                        <li><a href="http://www.penguin.co.uk/nf/Book/BookDisplay/0,,9780140111811,00.html" target="_blank">
+                            Fools Fortune</a><br />
+                            — William Trevor </li>
+                        <li><a href="http://www.goodreads.com/book/show/431.The_New_York_Trilogy" target="_blank">
+                            New York Trilogy</a><br />
+                            — Paul Auster </li>
+                        <li><a href="http://www.enotes.com/daring-young-man-flying-trapeze-salem/daring-young-man-flying-trapeze" target="_blank">
+                            The Daring Young<br />Man on the Flying Trapeze</a><br />
+                            — William Saroyan </li>
+
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Other stuff</h3>
+                    <ul>
+                        <li><a href="http://www.electricegg.co.uk" target="_blank">
+                            electricegg.co.uk</a></li>
+                        <li><a href="http://www.charlesbukowskiquotes.com/" target="_blank">
+                            Charles Bukowski</a></li>
+                        <li><a href="http://www.sirenonline.co.uk/" target="_blank">
+                            Siren FM</a></li>
+                        <li><a href="http://www.dizraeli.com/videos/" target="_blank">
+                            dizraeli.com</a></li>
+                        <li><a href="http://www.storybookdays.co.uk/" target="_blank">
+                            Storybook Days</a></li>
+                        <li><a href="http://justlincolnshire.org.uk/" target="_blank">
+                            JUST Lincolnshire</a></li>
+                        <li><a href="http://2012.emda.org.uk/cultural-olympiad/igniting-ambition/igniting-ambition-festival-2011" target="_blank">
+                            ignitingambition.co.uk</a></li>
+                        <li><a href="http://www.lincolnbig.co.uk/events" target="_blank">
+                            lincolnbig.co.uk</a></li>
+                        <li><a href="http://www.artsaward.org.uk" target="_blank">
+                            artsaward.org.uk</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3><br/></h3>
+                    <ul>
+                        <li><a href="http://culturalsolutions.co.uk/images/culturalsolutionsUK.pdf" target="_blank">
+                            *Featured in .Net Magazine*</a></li>
+                        <li><a href="http://www.joelstickley.com" target="_blank">
+                            joelstickley.com</a></li>
+                        <li><a href="http://www.writingeastmidlands.co.uk/" target="_blank">
+                            Writing East Midlands</a></li>
+                        <li><a href="http://www.lpac.co.uk/" target="_blank">
+                            Lincoln Performing Arts Centre</a></li>
+                        <li><a href="http://www.woldswords.org.uk" target="_blank">
+                            woldswords.org.uk</a></li>
+                        <li><a href="http://www.gainsboroughtravellerinitiative.com/" target="_blank">
+                            Gainsborough Traveller Initiative</a></li>
+                        <li><a href="http://www.goldenfables2012.co.uk" target="_blank">
+                            Golden Fables 2012</a></li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </article>
+
+    </div><!--END OF CONTENT !-->
+
+</section><!--END OF CONTACT !-->
+
+<footer class="footer">
+
+    <div class="content">
+        <p>&copy;  cultural solutions uk 2011 &bull; Registered in England 7498760 &bull; site by:</p><p><a href="http://www.hoohaadesign.co.uk" target="_blank"> HoohaaDesign&nbsp;</a></p><p>&bull;</p><p><a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.culturalsolutions.co.uk%2F" target="_blank" class="html5"></a></p><p> &bull;&nbsp;</p><p><a href="#home" class="smooth"> back to top &uarr;</a></p>
+
+    </div><!--END OF FOOTER CONTENT !-->
+</footer>
+<script type="text/javascript">
+
+    jQuery(document).ready(function(){
+
+        // Declare parallax on layers
+        jQuery('.parallax-layer').parallax({
+            mouseport: jQuery("#port")
+        });
+
+    });
+
+</script>
+<script>
+    $(document).ready(function() {
+        $("#davtxt").scrollable({circular: true, mousewheel: false}).navigator().autoscroll({
+            interval: 5000
+        });
+        $("#testimonials").scrollable({circular: true, mousewheel: false}).click(function() {$(this).data("scrollable").next();
+        });
+    });
+</script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('ul.nav a').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 3000,'easeInOutExpo');
+            event.preventDefault();
+        });
+    });
+
+    $(function() {
+        $('.smooth').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 3000,'easeInOutExpo');
+
+            event.preventDefault();
+        });
+    });
+
+</script>
+<script type="text/javascript">
+    $(function(){
+        $('#tweets').tweetable({username: 'culturalsolUK', time: true, limit: 5, replies: true, position: 'append'});
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+
+        $.scrollingParallax('images/para.png', {
+            bgHeight : '3000px',
+            bgWidth : '1024px',
+            staticSpeed : .25,
+            staticScrollLimit : false
+        });
+    });
+</script>
+<div id="awwwards"><a href="http://www.awwwards.com/" target="_blank">website awards</a></div>
+
+</body>
+</html>
